@@ -17,19 +17,26 @@ body {
     font-size: 16px;
     background-color:hsl(0, 100%, 74%);
     background-image: url(./images/bg-intro-mobile.png);
-    align-items: center;
 }
 
 .wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+    align-items: center;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    /* width: 90%; */
 }
 
 .header {
     color: white;
     text-align: center;
+}
+
+.header p {
+    text-align: center;
+    font-size: 1.05rem;
 }
 
 .trial-box {
