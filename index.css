@@ -15,7 +15,46 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    background-color:hsl(0, 100%, 74%);
+    background-image: url(./images/bg-intro-mobile.png);
+    align-items: center;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.header {
+    color: white;
+    text-align: center;
+}
+
+.trial-box {
+    color:white;
+    border-radius: .6rem;
+    background-color: hsl(248, 32%, 49%) ;
+    text-align: center;
+
+}
+
+.card {
+    background-color: white;
+    border-radius: .6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
