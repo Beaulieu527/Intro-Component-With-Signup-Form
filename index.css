@@ -44,6 +44,10 @@ body {
     border-radius: .6rem;
     background-color: hsl(248, 32%, 49%) ;
     text-align: center;
+    padding: 1.5rem;
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+    font-weight: 500;
 
 }
 
