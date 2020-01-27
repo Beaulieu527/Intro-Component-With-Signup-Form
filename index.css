@@ -32,11 +32,17 @@ body {
 .header {
     color: white;
     text-align: center;
+    margin-top: 4rem;
+}
+
+.header h1 {
+    font-size: 1.8em;
 }
 
 .header p {
     text-align: center;
     font-size: 1.05rem;
+    margin-bottom: 3rem;
 }
 
 .trial-box {
@@ -112,7 +118,7 @@ input {
     width: 75%;
     font-size: 11px;
     color: hsl(246, 25%, 77%);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .text-muted a {
@@ -120,6 +126,6 @@ input {
     text-decoration: none;
     font-weight: 500;
 }
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; margin-top: 5rem;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
