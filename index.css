@@ -15,7 +15,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    background-color:hsl(0, 100%, 74%);
+    background-color: hsl(0, 100%, 74%);
     background-image: url(./images/bg-intro-mobile.png);
 }
 
@@ -46,16 +46,15 @@ body {
 }
 
 .trial-box {
-    color:white;
+    color: white;
     border-radius: .6rem;
-    background-color: hsl(248, 32%, 49%) ;
+    background-color: hsl(248, 32%, 49%);
     text-align: center;
     padding: 1.5rem;
     padding-left: 3.75rem;
     padding-right: 3.75rem;
     font-weight: 500;
-    box-shadow: 0px 7px 0px 0px rgb(218,102,103);
-
+    box-shadow: 0px 7px 0px 0px rgb(218, 102, 103);
 }
 
 .card {
@@ -66,7 +65,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-top: 2rem;
-    box-shadow: 0px 10px 0px 0px rgb(218,102,103);
+    box-shadow: 0px 10px 0px 0px rgb(218, 102, 103);
 }
 
 form {
@@ -77,7 +76,6 @@ form {
     justify-content: space-between;
     width: 80%;
 }
-
 
 input {
     font-weight: 600;
@@ -98,22 +96,24 @@ input {
     outline: none;
     border-color: hsl(248, 32%, 49%);
 }
+
 /* R: 116 G: 224 B: 181 */
+
 .button {
     color: white;
     width: 106%;
     background-color: hsl(154, 59%, 51%);
-    border: 0.5px solid hsl(154, 59%, 51%); 
-    box-shadow: 0px 3px 0px 0px rgb(55,182,128)
+    border: 0.5px solid hsl(154, 59%, 51%);
+    box-shadow: 0px 3px 0px 0px rgb(55, 182, 128)
 }
 
 .button:active, .button:focus {
-/* R: 116 G: 224 B: 181 */
+    /* R: 116 G: 224 B: 181 */
     background-color: rgb(116, 224, 181);
     outline: none
 }
 
-.text-muted { 
+.text-muted {
     text-align: center;
     width: 75%;
     font-size: 11px;
@@ -122,10 +122,34 @@ input {
 }
 
 .text-muted a {
-    color:hsl(0, 100%, 74%) ;
+    color: hsl(0, 100%, 74%);
     text-decoration: none;
     font-weight: 500;
 }
-.attribution { font-size: 11px; text-align: center; margin-top: 5rem;}
-.attribution a { color: hsl(228, 45%, 44%); }
 
+label {
+    width: 100%;
+    text-align: right;
+    padding-left: 1em;
+    color: hsl(0, 100%, 74%);
+    font-size: .6em;
+    padding-top: .4rem;
+}
+
+.error-border {
+    border-color: hsl(0, 100%, 74%);
+}
+
+.hidden {
+    display: none;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
