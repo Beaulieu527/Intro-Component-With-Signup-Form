@@ -138,6 +138,7 @@ label {
 
 .error-border {
     border-color: hsl(0, 100%, 74%);
+    background: url(./images/icon-error.svg) no-repeat scroll 90%;
 }
 
 .hidden {
