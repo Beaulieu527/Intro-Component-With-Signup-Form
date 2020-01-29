@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./index.css" />
 
     <title>Frontend Mentor | Intro component with sign up form</title>
@@ -24,36 +31,75 @@
           invaluable.
         </p>
       </div>
-      <div class="trial-box" role="Trial Text">
-        Try it free 7 days <small>then $20/mo. thereafter</small>
-      </div>
-      <div class="card" role="Form Card">
-        <form>
-          <input class="input_field" id="first_name" type="text" aria-label="First Name" placeholder="First Name" />
-          <label class="hidden" for="first_name">First Name cannot be empty</label>
-          <input class="input_field" id="last_name" type="text" aria-label="Last Name" placeholder="Last Name" />
-          <label class="hidden" for="last_name">Last Name cannot be empty</label>
-          <input class="input_field" id="email" type="text" aria-label="Email Address" placeholder="Email Address" />
-          <label class="hidden" for="email">Looks like this is not an email</label>
-          <input class="input_field" id="password" type="password" aria-label="Password" placeholder="Password" />
-          <label class="hidden" for="password">Password cannot be empty</label>
-          <input class="button" type="submit" value="CLAIM YOUR FREE TRIAL" aria-label="Submit Button" />
-        </form>
-        <p class="text-muted">
-          By clicking the button, you are agreeing to our
-          <a href="#">Terms and Services</a>
-        </p>
+      <div class="body">
+        <div class="trial-box" role="Trial Text">
+          Try it free 7 days <small>then $20/mo. thereafter</small>
+        </div>
+        <div class="card" role="Form Card">
+          <form>
+            <input
+              class="input_field"
+              id="first_name"
+              type="text"
+              aria-label="First Name"
+              placeholder="First Name"
+            />
+            <label class="hidden" for="first_name"
+              >First Name cannot be empty</label
+            >
+            <input
+              class="input_field"
+              id="last_name"
+              type="text"
+              aria-label="Last Name"
+              placeholder="Last Name"
+            />
+            <label class="hidden" for="last_name"
+              >Last Name cannot be empty</label
+            >
+            <input
+              class="input_field"
+              id="email"
+              type="text"
+              aria-label="Email Address"
+              placeholder="Email Address"
+            />
+            <label class="hidden" for="email"
+              >Looks like this is not an email</label
+            >
+            <input
+              class="input_field"
+              id="password"
+              type="password"
+              aria-label="Password"
+              placeholder="Password"
+            />
+            <label class="hidden" for="password"
+              >Password cannot be empty</label
+            >
+            <input
+              class="button"
+              type="submit"
+              value="CLAIM YOUR FREE TRIAL"
+              aria-label="Submit Button"
+            />
+          </form>
+          <p class="text-muted">
+            By clicking the button, you are agreeing to our
+            <a href="#">Terms and Services</a>
+          </p>
+        </div>
       </div>
     </div>
     <footer>
       <p class="attribution">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
-          href="https://beaulieudev.com">Justin Beaulieu</a> and
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://beaulieudev.com">Justin Beaulieu</a> and
         <a href="https://kenneth-young.com">Kenneth Young</a>.
       </p>
     </footer>
     <script type="text/javascript" src="index.js"></script>
   </body>
-
 </html>
