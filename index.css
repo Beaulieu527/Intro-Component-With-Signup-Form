@@ -161,7 +161,7 @@ label {
   .wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     background-image: url(./images/bg-intro-desktop.png);
     height: 100vh;
   }
@@ -172,7 +172,7 @@ label {
     justify-content: center;
     align-items: center;
     width: 40%;
-    padding-left: 2rem;
+    padding-left: 2em;
     text-align: left;
   }
 
@@ -198,10 +198,10 @@ label {
   }
 
   input {
-    padding-top: 1.9rem;
-    padding-bottom: 1.9rem;
-    padding-left: 1.9rem;
-    font-size: 1.1em;
+    /* padding-top: 1.9em; */
+    /* padding-bottom: 1.9em; */
+    /* padding-left: 1.9em; */
+    /* font-size: 1.1em; */
   }
 
   .attribution {
